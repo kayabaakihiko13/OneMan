@@ -1,5 +1,5 @@
 # Compiler yang digunakan
-CXX := g++
+CXX := clang++
 
 # Flags untuk kompilasi
 CXXFLAGS := -O2 -mno-avx512f -march=native
